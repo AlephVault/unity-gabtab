@@ -142,8 +142,7 @@ namespace GameMeanMachine.Unity.GabTab
             public static void CreateInteractiveInterface()
             {
                 CreateInteractiveInterfaceWindow window = ScriptableObject.CreateInstance<CreateInteractiveInterfaceWindow>();
-                window.maxSize = new Vector2(550, 186);
-                window.minSize = window.maxSize;
+                window.minSize = new Vector2(550, 186);
                 window.selectedTransform = Selection.activeTransform;
                 window.ShowUtility();
             }

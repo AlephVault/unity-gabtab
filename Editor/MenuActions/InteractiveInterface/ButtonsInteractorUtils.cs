@@ -75,7 +75,6 @@ namespace GameMeanMachine.Unity.GabTab
                         if (contentRect.size != Vector2.zero)
                         {
                             minSize = contentRect.max + contentRect.min;
-                            maxSize = minSize;
                         }
                     }
 
@@ -118,8 +117,7 @@ namespace GameMeanMachine.Unity.GabTab
                 public static void CreateButtonsInteractor()
                 {
                     CreateButtonsInteractorWindow window = ScriptableObject.CreateInstance<CreateButtonsInteractorWindow>();
-                    window.maxSize = new Vector2(400, 176);
-                    window.minSize = window.maxSize;
+                    window.minSize = new Vector2(400, 176);
                     window.selectedTransform = Selection.activeTransform;
                     window.ShowUtility();
                 }

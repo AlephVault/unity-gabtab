@@ -135,7 +135,6 @@ namespace GameMeanMachine.Unity.GabTab
                             if (contentRect.size != Vector2.zero)
                             {
                                 minSize = contentRect.max + contentRect.min;
-                                maxSize = minSize;
                             }
                         }
 
@@ -294,8 +293,7 @@ namespace GameMeanMachine.Unity.GabTab
                     public static void CreateSimpleStringListInteractor()
                     {
                         CreateSimpleStringListInteractorWindow window = ScriptableObject.CreateInstance<CreateSimpleStringListInteractorWindow>();
-                        window.maxSize = new Vector2(600, 176);
-                        window.minSize = window.maxSize;
+                        window.minSize = new Vector2(600, 176);
                         window.selectedTransform = Selection.activeTransform;
                         window.ShowUtility();
                     }

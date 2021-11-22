@@ -55,8 +55,7 @@ namespace GameMeanMachine.Unity.GabTab
                 public static void CreateNullInteractor()
                 {
                     CreateNullInteractorWindow window = ScriptableObject.CreateInstance<CreateNullInteractorWindow>();
-                    window.maxSize = new Vector2(522, 63);
-                    window.minSize = window.maxSize;
+                    window.minSize = new Vector2(522, 63);
                     window.selectedTransform = Selection.activeTransform;
                     window.ShowUtility();
                 }
