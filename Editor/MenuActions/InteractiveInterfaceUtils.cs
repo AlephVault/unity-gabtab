@@ -8,11 +8,11 @@ using UnityEditor;
 using AlephVault.Unity.Support.Utils;
 using AlephVault.Unity.MenuActions.Utils;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace MenuActions
     {
-        using GameMeanMachine.Unity.GabTab.Authoring.Behaviours;
+        using AlephVault.Unity.GabTab.Authoring.Behaviours;
             
         /// <summary>
         ///   Menu actions to create <see cref="Behaviours.InteractiveInterface"/> with the inner

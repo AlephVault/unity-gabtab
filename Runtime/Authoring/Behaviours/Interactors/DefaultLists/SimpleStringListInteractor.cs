@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace Authoring
     {

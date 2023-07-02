@@ -1,15 +1,15 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace MenuActions
     {
         namespace InteractiveInterface
         {
             using AlephVault.Unity.MenuActions.Utils;
-            using GameMeanMachine.Unity.GabTab.Authoring.Behaviours;
-            using GameMeanMachine.Unity.GabTab.Authoring.Behaviours.Interactors;
+            using AlephVault.Unity.GabTab.Authoring.Behaviours;
+            using AlephVault.Unity.GabTab.Authoring.Behaviours.Interactors;
 
             /// <summary>
             ///   Menu actions to create a null interactor inside an <see cref="InteractiveInterface"/>.

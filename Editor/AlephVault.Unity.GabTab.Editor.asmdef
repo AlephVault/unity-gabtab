@@ -1,11 +1,11 @@
 {
-    "name": "GameMeanMachine.Unity.GabTab.Editor",
+    "name": "AlephVault.Unity.GabTab.Editor",
     "references": [
         "AlephVault.Unity.Support.Generic.Runtime",
         "AlephVault.Unity.Support.Generic.Editor",
         "AlephVault.Unity.MenuActions.Editor",
         "AlephVault.Unity.Support.Runtime",
-        "GameMeanMachine.Unity.GabTab.Runtime",
+        "AlephVault.Unity.GabTab.Runtime",
         "AlephVault.Unity.Layout.Runtime"
     ],
     "optionalUnityReferences": [],

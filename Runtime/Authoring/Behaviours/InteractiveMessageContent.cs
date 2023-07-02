@@ -4,7 +4,7 @@ using UnityEngine;
 using AlephVault.Unity.Support.Utils;
 using System.Threading.Tasks;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace Authoring
     {

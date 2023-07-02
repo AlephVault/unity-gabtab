@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using ATypes = AlephVault.Unity.Support.Generic.Authoring.Types;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace Authoring
     {

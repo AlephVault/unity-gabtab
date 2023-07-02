@@ -4,14 +4,14 @@ using UnityEngine.UI;
 using UnityEditor;
 using AlephVault.Unity.Support.Utils;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace MenuActions
     {
         namespace InteractiveInterface
         {
-            using GameMeanMachine.Unity.GabTab.Authoring.Behaviours;
-            using GameMeanMachine.Unity.GabTab.Authoring.Behaviours.Interactors;
+            using AlephVault.Unity.GabTab.Authoring.Behaviours;
+            using AlephVault.Unity.GabTab.Authoring.Behaviours.Interactors;
             using AlephVault.Unity.Layout.Utils;
             using AlephVault.Unity.MenuActions.Utils;
 

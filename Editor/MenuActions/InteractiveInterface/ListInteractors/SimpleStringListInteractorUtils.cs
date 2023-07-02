@@ -5,7 +5,7 @@ using UnityEditor;
 using AlephVault.Unity.Support.Utils;
 using AlephVault.Unity.MenuActions.Utils;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace MenuActions
     {
@@ -14,8 +14,8 @@ namespace GameMeanMachine.Unity.GabTab
             namespace ListInteractors
             {
                 using AlephVault.Unity.Layout.Utils;
-                using GameMeanMachine.Unity.GabTab.Authoring.Behaviours;
-                using GameMeanMachine.Unity.GabTab.Authoring.Behaviours.Interactors.DefaultLists;
+                using AlephVault.Unity.GabTab.Authoring.Behaviours;
+                using AlephVault.Unity.GabTab.Authoring.Behaviours.Interactors.DefaultLists;
 
                 /// <summary>
                 ///   Menu actions to create a <see cref="SimpleStringListInteractor"/>

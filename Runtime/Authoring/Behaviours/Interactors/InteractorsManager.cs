@@ -2,7 +2,7 @@
 using AlephVault.Unity.Support.Generic.Authoring.Types;
 using UnityEngine;
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace Authoring
     {

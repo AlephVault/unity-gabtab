@@ -1,5 +1,5 @@
 {
-    "name": "GameMeanMachine.Unity.GabTab.Runtime",
+    "name": "AlephVault.Unity.GabTab.Runtime",
     "references": [
         "AlephVault.Unity.Support.Runtime",
         "AlephVault.Unity.Support.Generic.Runtime"

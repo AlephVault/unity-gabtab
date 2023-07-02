@@ -1,4 +1,4 @@
-﻿namespace GameMeanMachine.Unity.GabTab
+﻿namespace AlephVault.Unity.GabTab
 {
     namespace Authoring
     {

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using UnityEditor;
 #endif
 
-namespace GameMeanMachine.Unity.GabTab
+namespace AlephVault.Unity.GabTab
 {
     namespace Authoring
     {
